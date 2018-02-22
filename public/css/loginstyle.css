@@ -1,0 +1,235 @@
+/* Login design section */
+.loginContainer{
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width:100%;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.innerContent{
+	width: 92%;
+    margin: auto;
+}
+.overLay{
+	background-color: rgba(0,0,0,0.4);
+	width:100%;
+	height:100%;
+	left: 0;
+    bottom: 0;
+    top: 0;
+    padding-bottom: 10px;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.loginbox{
+	background: #EBEAED;
+    margin-top: 28px;
+    margin-left: 12px;
+    border-radius: 10px;
+    margin-bottom: 26px;
+    width: 33%;
+}
+.sitelogo{
+	background-image: url(../images/icon2.png);
+    background-position: 4px -4px;
+    background-size: 267px 180px;
+    height: 53px;
+    width: 90px;
+    margin: auto;
+    margin-top: 14px;
+}
+.sitelogotxt{
+	background-image: url(../images/icon2.png);
+    background-position: -2px -62px;
+    background-size: 242px 201px;
+    height: 56px;
+    width: 237px;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.userlinebox{
+	margin-top: 36px;
+	padding-bottom: 24px;
+}
+.userlinebox .line-blue{
+	border-bottom: 2px solid #7FAEEB;
+	width: 92%;
+	position: absolute;
+}
+
+.userlinebox .text-blue{
+	color: #7FAEEB;
+    background-color: #EBEAED;
+    position: absolute;
+    margin-top: -9px;
+    padding: 0 6px 0 6px;
+    left: 44px;
+}
+.form-control {
+    border: 0px;
+    box-shadow: none;
+    border-bottom: 0px; 
+    padding: 5px;
+    background: #fff;
+    width: 79%;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn-blue{
+	background: #3885EB;
+	color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+.forgotpwd{
+	color: #888;
+    width: 79%;
+    margin: auto;
+    margin-top: 8px;
+    display: block;
+}
+.userlinebox .line-orange{
+	border-bottom: 2px solid #EBA40F;
+	width: 92%;
+	position: absolute;
+}
+.userlinebox .text-orange{
+	color: #EBA40F;
+    background-color: #EBEAED;
+    position: absolute;
+    margin-top: -9px;
+    padding: 0 6px 0 6px;
+    left: 44px;
+}
+.btn-orange{
+	background: #EBA40F;
+	color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+.userlinebox .line-red{
+	border-bottom: 2px solid #EB352E;
+	width: 92%;
+	position: absolute;
+}
+.userlinebox .text-red{
+	color: #EB352E;
+    background-color: #EBEAED;
+    position: absolute;
+    margin-top: -9px;
+    padding: 0 6px 0 6px;
+    left: 44px;
+}
+.socialbox{
+	padding-top: 12px;
+    padding-bottom: 84px;
+    margin: auto;
+    width: 180px;
+}
+.socialbox a .faceBook{
+	background-image: url(../images/icon2.png);
+    background-position: -2px -112px;
+    background-size: 250px 177px;
+    height: 52px;
+    width: 55px;
+    margin-top: 2px;
+    float: left;
+    margin-right: 5px;
+}
+.socialbox a .twitter{
+	background-image: url(../images/icon2.png);
+    background-position: -65px -112px;
+    background-size: 250px 177px;
+    height: 52px;
+    width: 55px;
+    margin-top: 2px;
+    float: left;
+    margin-right: 5px;
+}
+.socialbox a .gPlus{
+	background-image: url(../images/icon2.png);
+    background-position: -128px -112px;
+    background-size: 250px 177px;
+    height: 52px;
+    width: 55px;
+    margin-top: 2px;
+    float: left;
+    margin-right: 5px;
+}
+/* signup design section */
+.signupContainer{
+	background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width:100%;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.signupbox{
+	background: #EBEAED;
+    margin: auto;
+    margin-top: 26px;
+    border-radius: 10px;
+    margin-bottom: 26px;
+    width: 33%;
+}
+.allreadylogin{
+	color: #EBA40F;
+    text-align: right;
+    width: 79%;
+    margin: auto;
+    margin-top: 8px;
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+	.loginbox{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .signupbox{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .innerContent{
+		width: 92%;
+		margin: auto;
+	}
+    .loginbox .userlinebox .line-blue{
+		margin-top: 1px;
+		width: 92%;
+	}
+	.loginbox .userlinebox .line-orange{
+		margin-top: 1px;
+		width: 92%;
+	}
+	.loginbox .userlinebox .line-red{
+		margin-top: 1px;
+		width: 92%;
+	}
+	.signupbox .userlinebox .line-blue{
+		margin-top: 1px;
+		width: 92%;
+	}
+	.signupbox .userlinebox .line-orange{
+		margin-top: 1px;
+		width: 92%;
+	}
+	.signupbox .userlinebox .line-red{
+		margin-top: 1px;
+		width: 92%;
+	}
+}
